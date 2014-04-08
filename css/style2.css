@@ -1,0 +1,692 @@
+/* USE FONT WEIGHT TO SELECT Light 200, Light 200 Italic, Bold 700, Normal 400 or Normal 400 Italic */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size: 100%;
+	margin: 0 auto;
+	background: #ededed;
+}
+
+
+.nav-container {
+	display: flex;
+	margin: auto;
+	width: 90%;
+	background: PaleVioletRed;
+}
+
+
+
+.nav-ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	flex: 1; /********* allows nav to take up rest of container************/
+	background: MediumSeaGreen;
+}
+
+
+.nav-ul-li {
+	padding: 0 1.25em;
+}
+
+.nav-ul-li-button {
+	padding: 0;
+}
+
+
+.nav-ul-li a{
+	text-decoration: none;
+}
+
+.nav-ul-li-login {
+	color: #fff;
+	background-color: #000;
+	text-decoration: none;
+	padding: .25em 1.5em;
+	border: none;
+	border-radius: 20px;   /* can i change the font-size here? */
+}
+
+#menu-container {
+	display: none;
+}
+
+.main, footer {
+	background-image: url(../images/main_marquee.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	display: flex;
+	height: 416px;
+}
+
+.headline-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	background: PaleVioletRed;
+	width: 60%;
+}
+
+.main-headline {
+	color: #fff;
+	font-size: 600%;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	background: MediumSeaGreen;
+}
+
+.main-p {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 250%;
+	font-weight: Light 200;
+	text-align: center;
+	line-height: 110%;
+	margin: auto;
+	width: 70%;
+	padding: 0;
+	background: MediumAquaMarine;
+}
+
+
+blockquote {
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	background: yellow;
+	margin: 0;
+	padding: 5% 0;
+}
+
+
+.blockquote-container {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	background: PaleVioletRed;
+}
+
+
+.blockquote-p {
+	font-size: 170%;
+	font-style: italic;
+	margin: 0;
+	background: MediumSeaGreen;
+}
+
+
+.blockquote-writer {
+	font-size: 150%;
+	margin: 0 auto;
+	padding: 1% 0;
+	width: 70%;
+	background: MediumAquaMarine;
+}
+
+
+section {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	background: orange;
+}
+
+
+.feature-container {
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5% 0%;
+	background: PaleVioletRed;
+}
+
+.feature {
+	display: flex;
+	flex-direction: column;
+	background: green;
+	margin: 0 auto;
+
+}
+
+.feature img {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.feature h2{
+	background: MediumSeaGreen;
+	margin: 0 auto;
+	padding: 3% 0 2%;
+}
+
+
+.feature p {
+	text-align: left;
+	font-size: 90%;
+	line-height: 160%;
+	margin: 0 auto;
+	width: 80%;
+	background: MediumAquaMarine;
+}
+
+.tagline {  /**********example of parent w/ children elements**********/
+	width: 90%;
+	display: flex; /**********no flex direction- needs to stay as default 'row'**********/
+	padding: 3% 0 0;
+	margin: 2% auto 0;
+	background: PaleVioletRed;
+}
+
+.tagline-container {  /**********example of several children elements**********/
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 0 2% 5%;
+	width: 45%;
+	background: green;
+}
+
+.tagline-container h2 {
+	background: MediumSeaGreen;
+	width: 100%;
+}
+
+.tagline-container p {
+	line-height: 160%;
+	font-size: 90%;
+	background: MediumAquaMarine;
+}
+
+.tagline-button {
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	margin: 2% auto;
+	width: 60%;
+	line-height: 10%;
+	border: none;
+	border-radius: 20px;
+}
+
+.tagline .tagline-image-container {
+	display: flex; /**********explain**********/
+    margin: 0 auto;
+    padding: 0 3%;
+    background: green;
+}
+
+.tagline .tagline-image-container img {
+	width: 100%;	
+}
+
+
+footer {
+	height: 300px;
+
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	width: 83%;
+	padding: 0 3%;
+	margin: 1% auto 0;
+	background: PaleVioletRed;
+}
+
+.footer-container-ul {
+	background: green;
+	list-style: none;
+	line-height: 150%;
+	color: #fff;
+	padding: 0;
+}
+
+.footer-container-ul h4 {
+	margin-bottom: 15%;
+	background: MediumSeaGreen;
+}
+
+.footer-container-ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - 
+MOBILE STYLING BEGINS HERE
+- - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media screen and (max-width: 450px) {
+
+nav {
+	display: flex;
+}
+
+
+
+.nav-container {
+	flex-direction: column;
+	width: 80%;
+	background: PaleVioletRed;
+}
+
+nav .nav-container img {
+	margin: 1% auto;
+}
+
+.nav-ul {
+	flex-wrap: wrap; /**********explain- b/c I need buttons to 'wrap'**********/
+	background: green;
+	width: 95%;
+	padding: 0;
+	margin: auto;
+}
+
+.nav-ul-li {
+	margin: 0 auto;
+	padding: 2% 2.5em;
+	background: MediumSeaGreen;
+}
+
+.nav-ul-li a {
+	background: MediumAquaMarine;
+}
+
+.nav-ul-li-button {
+	margin: 0 auto;
+	padding: 5% 0;
+	background: LimeGreen;
+}
+
+.nav-ul-li-login {
+	padding: .25em 3em;
+}
+
+#menu-container {
+	display: flex;
+	flex-direction: column; /**********explain- b/c it**********/
+	justify-content: flex-start;
+	background: PaleVioletRed;
+}
+
+#menu-container img {
+	padding: 30% 10% 0 0; /**********explain- b/c padding is how you get your spacing**********/
+	background: MediumSeaGreen;
+}
+
+
+
+.main {
+	height: 300px;
+}
+
+.headline-container {
+	width: 80%;
+}
+
+
+.main-headline {
+	font-size: 400%;
+}
+
+.main-p {
+	font-size: 200%;
+	width: 80%;
+}
+
+
+
+.blockquote-p {
+	font-size: 125%;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.blockquote-writer {
+	font-size: 125%;
+	width: 90%;
+	margin: 6% auto;
+}
+
+.feature-container {
+	margin: 6% auto;
+	flex-direction: column; /******- allows features to 'stack' **********/
+	background: PaleVioletRed;
+}
+
+.feature {
+	margin: 3% auto;
+	width: 95%;
+}
+
+.feature img {
+	width: 50%;
+}
+
+.feature p {
+	width: 80%;
+}
+
+.tagline {
+	display: flex;
+	flex-direction: column; /**********explain- allows features to 'stack'
+	otherwise it will become a 'row' **********/
+	margin-top: 3%;
+}
+
+.tagline-container {
+	width: 85%;
+	padding-top: 5%; /*******child  of tagline **********/
+	/*******already inherits 'display: flex and flex: column from desktop' **********/
+	margin: 2% auto;
+}
+
+
+.tagline-container h2 {
+	line-height: 120%;
+	width: 90%;
+	margin: 0 auto;
+	background: MediumAquaMarine; /*******child  of tagline-container **********/
+}
+
+.tagline-container p {
+	margin: 5% auto;
+	width: 90%; /*******child  of tagline-container **********/
+}
+
+.tagline-button {
+	width: 60%;
+	/*******already inherits 'margin: auto' from above' **********/
+}
+
+.tagline .tagline-image-container {
+	width: 88%;
+	margin: auto;
+	padding: none;
+}
+
+.tagline .tagline-image-container img {
+	margin: 5% auto 0;
+	width: 80%;
+}
+
+footer {
+	height: 50px;
+}
+
+.footer-container {
+	display: none;
+}
+
+
+
+} /*--- @media screen ---*/
+
+/* - - - - - - - - - - - - - - - - - - - - - - - 
+mini tablet STYLING BEGINS HERE
+- - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media screen and (min-width: 451px) and (max-width: 655px) {
+
+nav {
+	display: flex;
+}
+
+.nav-container {
+	flex-direction: column;
+	width: 90%;
+	background: PaleVioletRed;
+}
+
+
+nav .nav-container img {
+	margin: 1% auto;
+}
+
+.nav-ul {
+	flex-wrap: wrap;
+	background: green;
+	width: 95%;
+	padding: 0;
+	margin: auto;
+}
+
+.nav-ul-li {
+	margin: 0 auto;
+	padding: 2%;
+	background: MediumSeaGreen;
+}
+
+.nav-ul-li a {
+	background: MediumAquaMarine;
+}
+
+.nav-ul-li-button {
+	margin: 0 auto;
+	padding: 3% 15%;
+	background: LimeGreen;
+}
+
+.nav-ul-li-login {
+	padding: .25em 3em;
+}
+
+#menu-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: PaleVioletRed;
+}
+
+#menu-container img {
+	padding: 30% 10% 0 0;
+	background: MediumSeaGreen;
+}
+
+
+.headline-container {
+	width: 80%;
+}
+
+
+.main-p {
+	width: 85%;
+}
+
+
+
+.feature-container {
+	margin: 8% auto;
+	flex-direction: column; /**********explain- allows features to 'stack' **********/
+}
+
+.feature {
+	width: 90%;
+	margin: 3% auto;
+}
+
+.feature img {
+	width: 45%;
+	margin: 2% auto;
+}
+
+.feature h2 {
+	margin: 0;
+}
+
+.feature p {
+	padding: 0;
+	margin: 3% auto;
+	width: 90%;
+}
+
+.tagline {
+	display: flex;
+	flex-direction: column;
+}
+
+.tagline-container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 2% auto;
+	background: green;
+}
+
+.tagline-container h2 {
+	line-height: 120%;
+}
+
+.tagline-container p {
+	margin: 0 auto 5%;
+}
+
+.tagline-button {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.tagline .tagline-image-container {
+	margin: auto;
+	display: flex;
+}
+
+.tagline .tagline-image-container img {
+	margin: 5% auto 0;
+	width: 80%;
+}
+
+
+
+footer {
+	height: 50px;
+}
+
+.footer-container {
+	display: none;
+}
+
+} /*--- @media screen ---*/
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - 
+TABLET STYLING BEGINS HERE
+- - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media screen and (min-width: 656px) and (max-width: 850px) {
+
+
+
+.nav-container {
+	width: 90%;
+	background: PaleVioletRed;
+}
+
+
+.blockquote-container {
+	width: 85%;
+	padding: 2% 0;
+}
+
+.feature-container {
+	width: 90%;
+}
+
+.feature {
+	margin: 0 1%;
+}
+
+.feature p {
+	width: 90%;
+}
+
+
+.tagline {
+	display: flex;
+	width: 90%;
+	margin: 2% auto 0;
+	flex-direction: column;
+	background: PaleVioletRed;
+}
+
+.tagline-container {
+	display: flex;
+	flex-direction: column;
+	margin: 2% auto;
+	padding: 0 2% 2%;
+	width: 90%;
+	background: green;
+}
+
+.tagline-container h2 {
+	line-height: 120%;
+}
+
+.tagline-container p {
+	margin: auto;
+	padding-bottom: 3%;
+}
+
+.tagline-button {
+	width: 40%;
+}
+
+.tagline .tagline-image-container {
+	margin: auto;
+	display: flex;
+	background: green;
+}
+
+
+.tagline .tagline-image-container img {
+	margin: 5% auto 0;
+	width: 100%;
+}
+
+
+
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 3%;
+	background: PaleVioletRed;
+}
+
+
+
+/*
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+	background: yellow;
+}
+
+
+
+.tagline-image-container {
+	background: blue;
+	display: flex;
+}
+
+.tagline .tagline-image-container img {
+	width: 80%;
+}
+
+
+*/
+
+}

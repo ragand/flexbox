@@ -1,0 +1,189 @@
+/* USE FONT WEIGHT TO SELECT Light 200, Light 200 Italic, Bold 700, Normal 400 or Normal 400 Italic */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size: 100%;
+	margin: 0 auto;
+	background: #ededed;
+}
+
+nav {
+	background: #fff;
+	overflow: hidden; /* allows logo and ul to be in same container */
+	padding: 2% 7% 1% 7%;
+}
+
+nav img {
+	display: inline;
+}
+
+.nav-ul {
+	float: right;
+	list-style: none;
+}
+
+
+.nav-ul-li {
+	display: inline; /* allows logo and ul to be in same container */
+	overflow: hidden;
+	padding: 0 1.25em;
+}
+
+.nav-ul-li a{
+	text-decoration: none;
+}
+
+.nav-ul-li-login {
+	color: #fff;
+	background-color: #000;
+	padding: .25em 1.5em;
+	border: none;
+	border-radius: 20px;   /* can i change the font-size here? */
+}
+
+.main, footer {
+	background-image: url(../images/main_marquee.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	overflow: hidden;
+	height: 416px;  /*** is there a way to make this responsive?? ***/
+}
+
+.headline_wrapper {
+	height: 100%;
+	overflow: hidden;
+}
+
+.main-headline {
+	color: #fff;
+	font-size: 600%;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	background: red;
+}
+
+.main-p {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 250%;
+	font-weight: Light 200;
+	text-align: center;
+	margin-top: 0;
+	padding: 0;
+	background:red;
+}
+
+
+blockquote {
+	text-align: center;
+	padding: 3% 10% 3% 10%;
+	border-bottom: 1px solid #ccc;
+	background: yellow;
+	margin: 0;
+}
+
+.blockquote-p {
+	font-size: 180%;
+	font-style: italic;
+	background: red;
+	margin-bottom: 0;
+}
+
+.blockquote-writer {
+	font-size: 1.5em;
+}
+
+.feature-container {
+	text-align: center;
+	padding: 4% 11%;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+.feature img {
+	width: 50%;
+}
+
+
+.feature {
+	float: left;
+	width: 33.33%;
+}
+
+.feature p {
+	text-align: left;
+	font-size: 90%;
+	line-height: 160%;
+	padding: 0 15%;
+	background: yellow;
+}
+
+.tagline {
+	padding: 7% 10% 0% 10%;
+	background: red;
+}
+
+.tagline-container {
+	padding: 0% 6% 0% 6%;
+	margin: 0;
+	width: 40%;
+	float: left;
+	background: yellow;
+}
+
+.tagline-container p {
+	line-height: 160%;
+	font-size: 90%;
+}
+
+
+.tagline img {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.tagline-button {
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	margin: 0 auto;
+	width: 40%;
+	line-height: 200%;
+	border: none;
+	border-radius: 20px;  
+}
+
+footer {
+	height: 300px;
+}
+
+.footer-container {
+	overflow: hidden;
+	padding: 0 15%;
+}
+
+.footer-container-ul {
+	float: left;
+	list-style: none;
+	color: #fff;
+	padding: 0;
+	width: 16.667%;
+}
+
+.footer-container-ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
